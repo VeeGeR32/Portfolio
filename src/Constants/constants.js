@@ -3,6 +3,7 @@ import {
 	faGithub,
 	faLinkedin,
 	faReact,
+	faDiscord,
 } from "@fortawesome/free-brands-svg-icons";
 import {
 	faBagShopping,
@@ -66,6 +67,7 @@ const icons = {
 	faDiceD6,
 	faReact,
 	faGithub,
+	faDiscord,
 	faLinkedin,
 	faEnvelope,
 };
