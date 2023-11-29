@@ -65,7 +65,7 @@ const ContactForm = () => {
 					<div className="w-full flex flex-col">
 						<label htmlFor="firstname">First Name</label>
 						<input
-							className="p-[0.5em] rounded-xl text-grayscale-950"
+							className="p-[0.5em] rounded-xl text-grayscale-950 outline-none"
 							placeholder="Enter your First Name"
 							id="firstname"
 							type="text"
@@ -76,7 +76,7 @@ const ContactForm = () => {
 					<div className="w-full flex flex-col">
 						<label htmlFor="lastname">Last Name</label>
 						<input
-							className="p-[0.5em] rounded-xl text-grayscale-950"
+							className="p-[0.5em] rounded-xl text-grayscale-950 outline-none"
 							placeholder="Enter your Last Name"
 							id="lastname"
 							type="text"
@@ -87,7 +87,7 @@ const ContactForm = () => {
 					<div className="w-full flex flex-col">
 						<label htmlFor="email">E-mail</label>
 						<input
-							className="p-[0.5em] rounded-xl text-grayscale-950"
+							className="p-[0.5em] rounded-xl text-grayscale-950 outline-none"
 							placeholder="Enter your E-mail"
 							id="email"
 							type="email"
@@ -98,7 +98,7 @@ const ContactForm = () => {
 					<div className="w-full flex flex-col">
 						<label>Message</label>
 						<textarea
-							className="p-[0.5em] rounded-xl text-grayscale-950"
+							className="p-[0.5em] rounded-xl text-grayscale-950 outline-none"
 							placeholder="Enter your message..."
 							name="message"
 							required
@@ -106,7 +106,7 @@ const ContactForm = () => {
 					</div>
 					<div className="w-full flex justify-center">
 						<input
-							className="w-[100px] h-[50px] bg-primary-600 rounded-xl cursor-pointer hover:bg-primary-700"
+							className="w-[100px] h-[50px] bg-primary-600 rounded-xl cursor-pointer hover:bg-primary-700 outline-none"
 							type="submit"
 							value={!isSent ? "Send" : "Done!"}
 						/>

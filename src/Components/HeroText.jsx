@@ -1,17 +1,8 @@
-/*
-   Copyright (C), 2023-2024, Sara Echeverria (bl33h)
-   Author: Sara Echeverria
-   FileName: HeroText.jsx
-   Version: I
-   Creation: 02/06/2023
-   Last modification: 03/06/2023
-*/
-
+import React from "react";
 import { m, LazyMotion, domAnimation } from "framer-motion";
 
 const HeroText = () => {
-  const name = "bl33h ?";
-
+  const name = "alioune?";
   return (
     <div
       className="noselect w-fit h-fit text-grayscale-50 absolute z-10 flex flex-col justify-center items-center rounded-[50%]"
