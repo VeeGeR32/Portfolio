@@ -26,7 +26,6 @@ import {
 	htmlIcon,
 	javaIcon,
 	jsIcon,
-	memoryGame,
 	neoIcon,
 	nodeIcon,
 	pawsitivePrototype,
@@ -35,6 +34,9 @@ import {
 	raspIcon,
 	reactIcon,
 	viteIcon,
+	restauran,
+	burger,
+	furni,
 } from "../assets";
 
 library.add(faX, faBars, faWindowRestore, faBagShopping, faDiceD6);
@@ -76,11 +78,11 @@ const introduction = {
 	text: [
 		"Hello there, I'm so happy you are here! (:",
 
-		"My name is Alioune, I'm 18 and my first year computer science student based in Toulouse. I have a strong passion for the technologies related to the data base construction and UX.",
+		"Hello, I'm Alioune, a dedicated and passionate web developer. With a keen eye for detail and a relentless drive for perfection, I specialize in creating visually appealing and user-friendly websites.",
 
-		"Outside of my regular activities, I'm into music whenever I have some free time. I enjoy playing chess for fun.",
+		"My expertise lies in front-end development, where I utilize the latest technologies and frameworks to ensure a seamless user experience.",
 
-		"I'm continuously thrilled to partner with individuals and teams who wholeheartedly embrace my fervor for crafting extraordinary experiences. Your visit to my portfolio is deeply appreciated !",
+		"I am committed to delivering high-quality web solutions that meet the specific needs of my clients, helping their businesses thrive in the digital world. Let's connect and bring your web vision to life!",
 	],
 };
 
@@ -108,29 +110,29 @@ const projects = [
 
 
 	{
-		name: "Arasartara's Gallery",
+		name: "Restauran",
 		description:
-			"A memory game with an art theme implemented with React. Test your memory skills and enjoy beautiful artwork as you match pairs of cards in this engaging game.",
-		image: memoryGame,
-		source_code_link: "https://github.com/bl33h/artMemoryGame",
-		demo_link: "https://arasarmemory.netlify.app/",
+			'A website for the restaurant "restauran" which presents its dishes, prices, staff and even customer reviews. Possibility of ordering online and several other features...',
+		image: restauran,
+		source_code_link: "https://github.com/VeeGeR32/restoran",
+		demo_link: "https://restoran-web.vercel.app",
 	},
 	{
-		name: "Pawsitive",
+		name: "Burger Bachelor",
 		description:
-			"Explore a user-friendly Figma prototype for an adoption and sterilization awareness website. Experience the sleek design and contribute to a noble cause.",
-		image: pawsitivePrototype,
-		source_code_link: "https://github.com/bl33h/pawsitive",
+			'"Burger Bachelor," an online burger restaurant, displays a variety of gourmet burgers with descriptions, ingredients, and prices. The website the contact to order burgers online, view mouth-watering images, and read customer feedback.',
+		image: burger,
+		source_code_link: "https://github.com/VeeGeR32/burger",
 		demo_link:
-			"https://www.figma.com/proto/zhK8DMa7uPyQIcHxkemIcx/Pawsitive?type=design&node-id=40-2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=40%3A2",
+			"https://burger-veeger.vercel.app",
 	},
 	{
-		name: "Basic Calculator",
+		name: "Furni",
 		description:
-			"A completely functional basic calculator website created with React. It allows you to perform mathematical calculations effortlessly. With testing implemented, the results are accurate.",
-		image: calculator,
-		source_code_link: "https://github.com/bl33h/calculator",
-		demo_link: "https://bl33hscalculator.netlify.app/",
+			'An online furniture store, "Furni," showcases a range of stylish and contemporary furniture, including details on materials, sizes, and prices. The site offers an easy browsing experience with the ability to view furniture in various interior settings and read customer reviews.',
+		image: furni,
+		source_code_link: "https://github.com/VeeGeR32/furni",
+		demo_link: "https://furni-swart.vercel.app/",
 	},
 ];
 

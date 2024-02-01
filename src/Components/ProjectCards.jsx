@@ -122,7 +122,7 @@ const ProjectCard = ({
 	return (
 		<motion.div
 			variants={fadeIn("up", "spring", index * 0.5, 0.75)}
-			className="p-5 rounded-lg sm:w-[280px] w-[80%] "
+			className="p-5 rounded-lg sm:w-[380px] w-[80%] "
 		>
 			<Tilt
 				options={{
@@ -135,7 +135,7 @@ const ProjectCard = ({
 					<img
 						src={image}
 						alt={name}
-						className="w-[full] h-[full] md:h-[200px]  object-cover rounded-lg"
+						className="w-[full] h-[full] md:h-[200px] object-cover rounded-lg"
 					/>
 					<div className="absolute inset-0 flex justify-end m-3 card-img_hover">
 						<div
@@ -174,7 +174,7 @@ const ProjectCard = ({
 
 const Works = () => {
 	return (
-		<div className="mt-5 grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 xl:grid-cols-4 gap-7 text-grayscale-50 w-full justify-items-center place-content-center">
+		<div className="mt-5 grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 gap-7 text-grayscale-50 w-full justify-items-center place-content-center">
 			{projects.map((project, index) => (
 				<ProjectCard key={`project-${index}`} index={index} {...project} />
 			))}

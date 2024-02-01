@@ -34,6 +34,10 @@ import menu from './menu.svg';
 import pawsitivePrototype from './projects/pawsitive.jpeg';
 import calculator from './projects/calculator.jpg';
 import memoryGame from './projects/memory.jpg';
+import restauran from './projects/restauran.png';
+import burger from './projects/burger.png';
+import furni from './projects/furni.png';
+
 
 // Avatar
 import avatar from './avatar/avatar.png';
@@ -62,4 +66,7 @@ export {
   memoryGame,
   avatar,
   alioune,
+  restauran,
+  burger,
+  furni,
 };
