@@ -78,7 +78,7 @@ const introduction = {
 	text: [
 		"Hello there, I'm so happy you are here! (:",
 
-		"Hello, I'm Alioune, a dedicated and passionate web developer. With a keen eye for detail and a relentless drive for perfection, I specialize in creating visually appealing and user-friendly websites.",
+		"I'm Alioune, a dedicated and passionate web developer. With a keen eye for detail and a relentless drive for perfection, I specialize in creating visually appealing and user-friendly websites.",
 
 		"My expertise lies in front-end development, where I utilize the latest technologies and frameworks to ensure a seamless user experience.",
 
