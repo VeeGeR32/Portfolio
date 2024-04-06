@@ -10,7 +10,7 @@ const SocialLinks = () => {
 					icon={icons.faGithub}
 				/>
 			</a>
-			<a href="mailto:aliounediallo32000@gmail.com" target="_blank">
+			<a href="mailto:contact@alioune.dev" target="_blank">
 				<FontAwesomeIcon
 					className="text-3xl text-grayscale-50 hover:text-primary-400 hover:scale-[1.1] transition-all duration-75"
 					icon={icons.faEnvelope}
