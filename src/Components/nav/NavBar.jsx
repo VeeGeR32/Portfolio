@@ -24,8 +24,7 @@ const Navbar = () => {
 					width: "100%",
 					height: "100%",
 					zIndex: -1,
-					backgroundImage:
-						"linear-gradient(to bottom, rgba(0, 0, 0, 0.8), transparent)",
+					background:"transparent",
 				}}
 			></div>
 			<div className="w-full flex justify-between items-center max-w-7x1 mx-auto">
